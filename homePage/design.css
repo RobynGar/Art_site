@@ -1,0 +1,107 @@
+body{
+    background-color: #E5D2C4;
+    font-family: Playfair Display, sans-serif, Arial;
+}
+
+.navigation{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background: #E5C4C7;
+    list-style-type: none;
+}
+.navigation li a{
+display: block;
+padding: 0.5em;
+color:darkslategray;
+font-size: 1.5em;
+text-decoration: none;
+}
+
+.button{
+    background-color:#E5E3C4;
+    border: none;
+    color: darkslategray;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: Playfair Display, sans-serif, Arial;
+}
+.button a {
+  color: darkslategray;
+  text-decoration: none;
+
+}
+
+header{
+    color: darkslategray;
+    text-align: center;
+}
+
+
+img{
+    max-width: 80%;
+    max-height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+    color: darkslategray;
+    
+}
+
+header p{
+    display:block;
+    padding-left: 8em;
+    padding-right:7em;
+    color: darkslategray;
+}
+.exhi{
+    margin: 2em;
+    border: 3px solid #E5C4C7;
+    padding: 1em;
+    text-align: center;
+    color: darkslategray;
+}
+.exhi li{
+    list-style-type: none;
+}
+section ul{
+    display:block;
+    text-align: center;
+    color: darkslategray;
+}
+
+.navigation li:hover{
+    background:#E5E3C4;
+}
+
+.contactInfo li a svg:hover{
+    transform: scale(1.5);
+}
+
+.contactInfo{
+    background-color: #E5C4C7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.contactInfo li{
+    padding: 0.5em;
+    color:darkslategray;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* #E5D2C4 Dirty White (#E5E3C4) and Dust Storm (#E5C4C7 */

@@ -1,0 +1,117 @@
+body{
+    background-color: #E5D2C4;
+    font-family: Playfair Display, sans-serif, Arial;
+}
+.navigation{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background:  #E5C4C7;
+    list-style-type: none;
+}
+.navigation li a{
+display: block;
+padding: 0.5em;
+color:darkslategray;
+font-size: 1.5em;
+text-decoration: none;
+}
+
+.button{
+    background-color:#E5E3C4;
+    border: none;
+    color: darkslategray;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: Playfair Display, sans-serif, Arial;
+}
+.button a {
+  color: darkslategray;
+  text-decoration: none;
+
+}
+.navigation li:hover{
+    background:#E5E3C4;
+}
+.contactInfo li a svg:hover{
+    transform: scale(1.5);
+}
+
+header{
+    color: darkslategray;
+    text-align: center;
+}
+
+.contactInfo{
+    background-color: #E5C4C7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    position: relative;
+    bottom:0;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 100px;
+    padding-left: 0%;
+}
+
+.contactInfo li{
+    padding: 0.5em;
+    color:darkslategray;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* .imageGallery {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 50vw);
+    grid-gap: 20px;
+    list-style-type: none;
+    margin-bottom: 120px;
+    /* padding-left: 0; */
+    /* max-width: 1024px;
+}
+@media screen and (max-width: 500px) {
+    #imageGallery {
+     display: block;
+     max-width: 100%;
+     height: auto;
+    }
+  } */ 
+  
+
+/* .flex-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.imageGallery {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+     */
+     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 50vw);
+    gap: 1rem;
+  }
+  
+  .imageGallery img {
+    display: block;
+    width: 100%;
+    
+  }
+
+header{
+    color: darkslategray;
+    text-align: center;
+}
